@@ -1,0 +1,16 @@
+{
+    "name": "Fantastic Four",
+    "short_name": "F.Our",
+    "description": "App untuk fantastic four",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#00ACEE",
+    "theme_color": "#00ACEE",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
