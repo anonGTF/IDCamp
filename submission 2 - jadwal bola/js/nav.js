@@ -43,6 +43,9 @@ document.addEventListener("DOMContentLoaded", function() {
         case "teams":
             getTeams();
             break;
+        case "favorite":
+            showFavorite();
+            break;
     }
     loadPage(page);
 

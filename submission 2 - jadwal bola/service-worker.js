@@ -11,7 +11,9 @@ var urlsToCache = [
     "/js/home.js",
     "/js/nav.js",
     "/js/request.js",
-    "/js/db.js"
+    "/js/db.js",
+    "/lib/idb.js",
+    "/img/delete.svg"
 ];
 
 self.addEventListener("install", function(event) {

@@ -129,7 +129,7 @@ function getTeams() {
                   <h6>${team.name}</h6>
                 </div>
                 <div class="card-action">
-                  <a class="deep-purple-text text-darken-4" onclick="addToFavorite(${team.name}, ${team.id});">Add to favorite</a>
+                  <a class="deep-purple-text text-darken-4" onclick="addToFavorite('${team.name}', ${team.id})" id="atf">Add to favorite</a>
                 </div>
               </div>
             </div>
